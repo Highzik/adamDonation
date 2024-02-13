@@ -1,13 +1,25 @@
 import { NavLink, Outlet } from "react-router-dom"
+import { useState, useEffect } from "react"
 import '/src/styles/navlayout.css'
 
 export default function NavLayout() {
+  const [scrolling, setScrolling] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      const threshold = 600;
+      setScrolling(scrollTop > threshold)
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [])
+
   return (
     <div>
       {/* The layout for NavBar */}
-      <nav className="navbar navbar-expand-lg fixed-top">
+      <nav className={`navbar navbar-expand-lg fixed-top ${scrolling ? "scrolled" : ''}`}>
         <div className="container-fluid">
-          <div className="container flexed">
+          <div className="container flexed mx-auto">
             <NavLink className='navbar-brand' to={'/'}>GIVING</NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>

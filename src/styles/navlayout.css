@@ -21,15 +21,38 @@
   font-weight: 500;
   font-size: 2.2rem;
   letter-spacing: 3px;
+  color: #FFF;
+}
+
+.navbar-brand:hover {
+  color: #FFF;
 }
 
 .nav-link {
   font-weight: 500 !important;
   font-size: 1.3rem;
-  color: #111;
+  color: #FFF;
+}
 
+.nav-link:hover {
+  color: #FFF;
 }
 
 .nav-link.active {
   color: #79ccab !important;
+}
+
+nav.scrolled {
+  background: #333;
+  transition: 0.5s;
+}
+
+.menu-text,
+.offcanvas-title {
+  color: #FFF;
+  letter-spacing: 2px;
+}
+
+.offcanvas {
+  background: #333;
 }
