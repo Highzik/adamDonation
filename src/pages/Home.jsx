@@ -2,6 +2,7 @@ import image1 from '/src/images/girl.jpg'
 import image2 from '/src/images/classroom.webp'
 import '/src/styles/home.css'
 import { FaBriefcaseMedical, FaUsers, FaDollarSign } from 'react-icons/fa'
+// import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -51,6 +52,10 @@ export default function Home() {
         </section>
 
       </div>
+      {/* This is the footer component  */}
+
+   {/* <br /> <br />
+      <Footer /> */}
 
     </div>
   )
