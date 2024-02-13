@@ -36,13 +36,15 @@ export default function NavLayout() {
                     <NavLink className="nav-link mx-lg-2" aria-current="page" to={'/'}>Home</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link mx-lg-2" aria-current="page" to={'about'}>About</NavLink>
+                  <NavLink className="nav-link mx-lg-2" aria-current="page" to={'gallery'}>Gallery</NavLink>
+                    {/* <NavLink className="nav-link mx-lg-2" aria-current="page" to={'about'}>About</NavLink> */}
                   </li>
                   <li className="nav-item">
                     <NavLink className="nav-link mx-lg-2" aria-current="page" to={'donate'}>Donate</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link mx-lg-2" aria-current="page" to={'gallery'}>Gallery</NavLink>
+                    {/* <NavLink className="nav-link mx-lg-2" aria-current="page" to={'gallery'}>Gallery</NavLink> */}
+                    <NavLink className="nav-link mx-lg-2" aria-current="page" to={'about'}>About</NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink className="nav-link mx-lg-2" aria-current="page" to={'contact'}>Contact</NavLink>
