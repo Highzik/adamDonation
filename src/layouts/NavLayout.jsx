@@ -1,13 +1,14 @@
 import { NavLink, Outlet } from "react-router-dom"
 import { useState, useEffect } from "react"
 import '/src/styles/navlayout.css'
+import Footer from "../pages/Footer";
 
 export default function NavLayout() {
   const [scrolling, setScrolling] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      const threshold = 600;
+      const threshold = 400;
       setScrolling(scrollTop > threshold)
     };
     window.addEventListener('scroll', handleScroll);
@@ -36,7 +37,7 @@ export default function NavLayout() {
                     <NavLink className="nav-link mx-lg-2" aria-current="page" to={'/'}>Home</NavLink>
                   </li>
                   <li className="nav-item">
-                  <NavLink className="nav-link mx-lg-2" aria-current="page" to={'gallery'}>Gallery</NavLink>
+                    <NavLink className="nav-link mx-lg-2" aria-current="page" to={'gallery'}>Gallery</NavLink>
                     {/* <NavLink className="nav-link mx-lg-2" aria-current="page" to={'about'}>About</NavLink> */}
                   </li>
                   <li className="nav-item">
@@ -59,6 +60,7 @@ export default function NavLayout() {
 
       </nav>
       <Outlet />
+      <Footer />
     </div>
   )
 }

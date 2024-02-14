@@ -8,10 +8,18 @@
   z-index: -1;
 }
 
+.home h1 {
+  color: #FFF;
+  width: 100%;
+  padding-top: 15vh;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
 .section {
   position: relative;
   z-index: -1;
-  padding-top: 100vh;
+  padding-top: 50vh;
 }
 
 .section p {
@@ -29,8 +37,8 @@
 .section2 {
   background: #329E43;
   color: #FFF;
-  padding: 50px 0;
-  width: 100%;
+  padding: 30px;
+  border-radius: 4px;
 }
 
 .second-img {
@@ -61,16 +69,113 @@
 .section2 button {
   background: #79CCAB;
   letter-spacing: 3px;
-  border: none;
+  border: 2px solid transparent;
   padding: 15px 30px;
   color: #FFF;
   font-weight: 600;
   border-radius: 4px;
   cursor: pointer;
-  transition: 0.1s;
+  transition: 0.3s ease-in-out;
 }
 
 .section2 button:hover {
   border: 2px solid #FFF;
   background: #329E43;
+}
+
+.section3 {
+  padding-top: 20vh;
+}
+
+.section3 img {
+  width: 30%;
+  border-radius: 100%
+}
+
+.cards {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+
+.cards h4 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+.cards p {
+  color: #C3ABA2;
+  font-weight: 500;
+}
+
+.donate {
+  background: #F2F2F2;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  width: 50%;
+}
+
+.amount {
+  background: #329E43;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #FFF;
+  width: 50%;
+}
+
+.section4 {
+  background: #73BD9D;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.section4 img {
+  border: 10px solid #FFF;
+}
+
+.section4 h2 {
+  color: #FFF;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+}
+
+.section4 h3 {
+  color: #FFF;
+  width: 80%;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.section4 p {
+  color: #FFF;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.section4 span {
+  color: #FFF;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.section4 button {
+  background: #28A745;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  color: #FFF;
+  letter-spacing: 3px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.section4 button:hover {
+  border: 2px solid #FFF;
+  background: #73BD9D;
 }
