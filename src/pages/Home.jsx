@@ -132,7 +132,7 @@ export default function Home() {
               Vokalia and Consonantia, there live the blind texts
             </p>
             <span>We have raised $30,000</span><br />
-            <button className='col-6 py-3 px-4'>READ THE FULL STORY</button>
+            <button className='py-3 px-4'>READ THE FULL STORY</button>
           </div>
         </div>
       </section>

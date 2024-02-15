@@ -8,12 +8,12 @@ export default function Contact() {
   // functionality to catch input from user
 
   // set a form Data to receive every value that wil be inputed by user
-  const [formInput, setFormInput] = useState({
+  const [formInput, setFormInput] = useState([{
     name: '',
     email: '',
     subject: '',
     message: ''
-  })
+  }])
 
   // catch every value and transfer it to the form Data
   const onchange = (e) => {
@@ -83,7 +83,7 @@ export default function Contact() {
                 <input
                   type="button"
                   value="SEND MESSAGE"
-                  className='submit-btn col-6 py-3 mb-3'
+                  className='submit-btn py-3 mb-3'
                 />
               </form>
             </div>
