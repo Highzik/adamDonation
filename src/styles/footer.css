@@ -20,3 +20,14 @@
     color: #fff !important;
     font-family: "Gaegu", cursive;
 }
+
+
+a  {
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}

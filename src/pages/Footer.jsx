@@ -1,4 +1,5 @@
 import '/src/styles/footer.css'
+import { FaBriefcaseMedical, FaUsers, FaDollarSign } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -18,8 +19,13 @@ const Footer = () => {
                                 <h3 className="heading-section">Contact Info</h3>
                                 <ul>
                                     <li><span className="icon icon-map-marker"></span><span className="text">203 Fake St. Mountain View, San <br />Francisco, California, USA</span></li>
-                                    <li><a href="#"><span class="icon icon-phone"></span><span className="text">+2 392 3929 210</span></a></li>
-                                    <li><a href="#"><span class="icon icon-envelope"></span><span className="text">info@yourdomain.com</span></a></li>
+                                    <li><a href="#"><span class="icon icon-phone"></span><span className="text"> <FaBriefcaseMedical style={{ color: '#79ccab', fontSize: '2rem' }} />+2 392 3929 210</span></a></li>
+                                    <li><a href="#"><span class="icon icon-envelope"></span><span className="text"> <FaBriefcaseMedical style={{ color: '#79ccab', fontSize: '18px', marginRight:  "10px"}} />   info@yourdomain.com</span></a></li>
+
+                                    <li><a href="#"><span class="icon icon-envelope"></span><span className="text"> <FaBriefcaseMedical style={{ color: '#79ccab', fontSize: '18px', marginRight:  "10px"}} />   info@yourdomain.com</span></a></li>
+                            
+
+
                                     <li><span class="icon icon-clock-o"></span><span class="text">Monday — Friday 8:00am - 5:00pm</span></li>
                                 </ul>
                             </div>
