@@ -32,3 +32,37 @@
 
 
 
+.site-section {
+  margin-top: 30px;
+  /* padding-top: 20vh; */
+}
+
+
+.h2d {
+  margin-top: 30px;
+  
+}
+
+.site-section img{
+  width: 30%;
+  border-radius: 100%
+}
+
+
+
+.person-donate .donate-amount .label {
+  background: #f2f2f2;
+}
+
+.person-donate .donate-amount .amount {
+  background: #28a745;
+    color: #fff;
+}
+
+.person-donate .donate-amount > div {
+  width: 50%;
+  padding: 10px;
+}
+
+
+
