@@ -3,6 +3,7 @@ import image3 from '/src/images/person_1.jpg.webp'
 import image4 from '/src/images/person_2.jpg.webp'
 import image5 from '/src/images/person_3.jpg.webp'
 import image6 from '/src/images/person_4.jpg.webp'
+import UN2 from '../images/UN2.jpeg'
 import '/src/styles/donate.css'
 
 
@@ -141,6 +142,28 @@ export default function Donate() {
         </div>
 
         {/* The Donation containter ends here  */}
+
+         {/* section for schools in Africa */}
+      <section className="section2">
+        <div className="row">
+          <div className="col-lg-6">
+            <h4>Success Stories</h4>
+            <h3>School in Africa <br />Need Renovations.
+            Thanks To All Donor</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <h1 className='mb-4'>$30,000</h1>
+            {/* <h2 className='mb-4'>$30,000</h2>
+            <h1 className='mb-4'>$30,000</h1> */}
+            <button className='mb-3'>READ THE FULL STORY</button>
+          </div>
+          <div className="col-lg-6 secondImg-container">
+            <img src={UN2} alt="children in classroom" className='img-fluid second-img' />
+          </div>
+        </div>
+      </section>
+
+
 
 
         {/* The next container here is the succesful container . It contains a message after the donation section */}

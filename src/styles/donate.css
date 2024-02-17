@@ -66,3 +66,25 @@
 
 
 
+
+.section2 button {
+  background: #79CCAB;
+  letter-spacing: 3px;
+  border: 2px solid transparent;
+  padding: 15px 30px;
+  color: #FFF;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.section2 button:hover {
+  border: 2px solid #FFF;
+  background: #329E43;
+}
+
+.section2 h2 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
