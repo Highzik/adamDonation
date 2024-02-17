@@ -166,7 +166,67 @@ export default function Donate() {
 
 
 
-        {/* The next container here is the succesful container . It contains a message after the donation section */}
+        {/* The next container here is the succesful container . It contains a message after the donation section */}\
+
+
+        {/* This is the testimony section */}
+
+
+        {/* <div class="site-section bg-light">
+                <div class="container">
+                    <div class="row mb-5">
+                    <div class="col-md-12 text-center">
+                    <h2>Testimonial</h2>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-6 mb-5">
+                    <div class="block-47 d-flex">
+                    <div class="block-47-image">
+                    <img src={image3} alt="Image placeholder" class="img-fluid" />
+                    </div>
+                    <blockquote class="block-47-quote">
+                    <p>“A small river named Duden flows by their place and supplies it with the necessary regelialia.”</p>
+                    <cite class="block-47-quote-author">Carl Adams</cite>
+                    </blockquote>
+                    </div>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                    <div class="block-47 d-flex">
+                    <div class="block-47-image">
+                    <img src={image3} alt="Image placeholder" class="img-fluid" />
+                    </div>
+                    <blockquote class="block-47-quote">
+                    <p>“A small river named Duden flows by their place and supplies it with the necessary regelialia.”</p>
+                    <cite class="block-47-quote-author">— Nicole Watson</cite>
+                    </blockquote>
+                    </div>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                    <div class="block-47 d-flex">
+                    <div class="block-47-image">
+                    <img src={image3} alt="Image placeholder" class="img-fluid" />
+                    </div>
+                    <blockquote class="block-47-quote">
+                    <p>“A small river named Duden flows by their place and supplies it with the necessary regelialia.”</p>
+                    <cite class="block-47-quote-author">Vanessa Horton</cite>
+                    </blockquote>
+                    </div>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                    <div class="block-47 d-flex">
+                    <div class="block-47-image">
+                    <img src={image3} alt="Image placeholder" class="img-fluid" />
+                    </div>
+                    <blockquote class="block-47-quote">
+                    <p>“A small river named Duden flows by their place and supplies it with the necessary regelialia.”</p>
+                    <cite class="block-47-quote-author">— Adam Spratt</cite>
+                    </blockquote>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </div> */}
 
 
 
