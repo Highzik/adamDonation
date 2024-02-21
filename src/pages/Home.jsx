@@ -17,7 +17,7 @@ export default function Home() {
         <img src={image1} alt="image of a girl" className='img-fluid main-img' />
 
         {/* text close to the image for the landing page */}
-        <h1>Please Help Afircan <br />Children Give <br />Them A Better Life</h1>
+        <h1>Please Help African <br />Children Give <br />Them A Better Life</h1>
 
         {/* section for donations, volunteers, and medical missions */}
         <section className="section mb-5">
