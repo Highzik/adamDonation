@@ -47,3 +47,49 @@
   width: 30%;
   border-radius: 100%
 }
+
+
+
+
+
+
+
+/* The css code is for the testimon side  */
+
+
+
+
+
+.block-47 .block-47-image img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 8px 10px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 10px -2px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.block-47 .block-47-quote {
+  margin-left: 10px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 7px;
+  position: relative;
+  -webkit-box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.1);
+}
+
+
+  /* This is the slight edge sign  */
+
+
+.block-47 .block-47-quote:before {
+  content: "";
+  border: 1px solid red;
+  z-index: 2;
+  position: absolute;
+  left: -15px;
+  border-width: 0 20px 20px 0;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
+}

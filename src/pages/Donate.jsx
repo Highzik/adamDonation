@@ -172,7 +172,7 @@ export default function Donate() {
       {/* This is the testimony section */}
 
 
-      {/* <div class="site-section bg-light">
+      <div class="site-section bg-light">
                 <div class="container">
                     <div class="row mb-5">
                     <div class="col-md-12 text-center">
@@ -226,7 +226,7 @@ export default function Donate() {
                     </div>
                     </div>
                     </div>
-                </div> */}
+                </div>
     </div>
   )
 }
