@@ -87,7 +87,7 @@ export default function Donate() {
               <div className="col-md-6 col-lg-3 mb-5">
                 <div className="person-donate text-center bg-light pt-4">
                   <img src={image6} alt="Image placeholder" className="img-fluid" />
-                  <div class="donate-info">
+                  <div className="donate-info">
                     <h2>Albert Sluyter</h2>
                     <span className="time d-block mb-3">Donated 3 hours ago</span>
                     <div className="donate-amount d-flex">
@@ -126,7 +126,7 @@ export default function Donate() {
               <div className="col-md-6 col-lg-3 mb-5">
                 <div className="person-donate text-center bg-light pt-4">
                   <img src={image3} alt="Image placeholder" className="img-fluid" />
-                  <div class="donate-info">
+                  <div className="donate-info">
                     <h2>Christine Charles</h2>
                     <span className="time d-block mb-3">Donated 3 hours ago</span>
                     <div className="donate-amount d-flex">

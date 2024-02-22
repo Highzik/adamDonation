@@ -15,17 +15,8 @@ export default function About() {
           <h1>About The <br /> Organization</h1>
         </div>
       </div>
+
       {/* The second image on the page  */}
-
-      <div className="col-md-12 mb-5 about--container">
-        {/* The second image on the page */}
-        <img src={UN4} alt="A boy standing" className='img-fluid secondImg' />
-      </div>
-
-
-
-
-
     </div>
   )
 }

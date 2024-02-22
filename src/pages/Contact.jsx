@@ -5,31 +5,18 @@ import { useState } from 'react'
 
 export default function Contact() {
 
-  // functionality to catch input from user
+  // Functionality for the form 
+  const [formData, setFormData] = useState({})
 
-  // set a form Data to receive every value that wil be inputed by user
-  // const [formInput, setFormInput] = useState([{
-  //   name: '',
-  //   email: '',
-  //   subject: '',
-  //   message: ''
-  // }])
-
-  // // catch every value and transfer it to the form Data
-  // const onchange = (e) => {
-  //   const validateForm = {
-  //     ...formInput
-  //     [e.target.name]: e.target.value
-  //   }
-  //   setFormInput(validateForm);
-  // }
-
-  //submit form
-  const handleSubmit = (e) => {
-    e.preventDefault
+  const onChange = (e) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value })
+    console.log(formData);
+    // This is to monitor user input in those fields
   }
-
-  //all these are yet to be completed. I still dey watch videos on form validation. We go run am!!!
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // We'll send the data received from user to the backend when we have it
+  }
 
   return (
     <div className="container-fluid py-5">
@@ -51,34 +38,34 @@ export default function Contact() {
               <form onSubmit={handleSubmit}>
                 <input
                   type="text"
-                  name='name'
+                  id='name'
                   placeholder='Your Name'
                   required className='col-12 mb-2 py-3 px-4'
-                  onChange={onchange}
+                  onChange={onChange}
                 /><br />
 
                 <input
                   type="email"
-                  name='email'
+                  id='email'
                   placeholder='Your Email'
                   required className='col-12 mb-2 py-3 px-4'
-                  onChange={onchange}
+                  onChange={onChange}
                 /><br />
 
                 <input
                   type="text"
-                  name='subject'
+                  id='subject'
                   placeholder='Subject'
                   required className='col-12 mb-2 py-3 px-4'
-                  onChange={onchange}
+                  onChange={onChange}
                 /><br />
 
                 <textarea
-                  name="message"
+                  id="message"
                   rows="8"
                   placeholder='Message'
                   className='px-4 py-3 col-12 text-area mb-4'
-                  onChange={onchange}
+                  onChange={onChange}
                 ></textarea><br />
 
                 <input
