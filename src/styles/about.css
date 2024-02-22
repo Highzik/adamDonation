@@ -22,14 +22,34 @@
     letter-spacing: 5px;
 }
 
-.secondImg {
-    max-width: 100%;
-    height: auto;
+.proxy-container {
+    padding-top: 23vh;
 }
 
-.about-container {
-    position: absolute;
-    padding-top: 150vh;
-    border: 2px solid red;
-    padding: 30px;
+.dummy-text-container {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.founder-cont {
+    width: 30%;
+}
+
+.founder__1 {
+    border-radius: 100%;
+}
+
+.mainFounder-cont h4 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.mainFounder-cont h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.mainFounder-cont p {
+    font-size: 1.3rem;
 }

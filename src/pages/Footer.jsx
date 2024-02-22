@@ -1,5 +1,5 @@
 import '/src/styles/footer.css'
-import { FaPhone, FaEnvelope, FaMapMarker } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaMapMarker, FaClock } from 'react-icons/fa'
 
 const Footer = () => {
     const date = new Date();
@@ -21,7 +21,7 @@ const Footer = () => {
                             <li><a href="#"><span className="icon icon-phone text-white"><FaPhone style={{ color: '#79ccab', fontSize: '1rem', marginRight: '10px' }} /> +2 392 3929 210</span></a></li>
                             <li><a href="#"><span className="icon icon-envelope text-white"><FaEnvelope style={{ color: '#79ccab', fontSize: '1rem', marginRight: "10px" }} />   info@yourdomain.com</span></a></li>
                             <li><a href="#"><span className="icon icon-envelope text-white"><FaMapMarker style={{ color: '#79ccab', fontSize: '1rem', marginRight: "10px" }} />   San Francisco, IL</span></a></li>
-                            <li><span class="icon icon-clock-o">Monday — Friday 8:00am - 5:00pm</span></li>
+                            <li><span className="icon icon-clock-o"><FaClock style={{ color: '#79ccab', fontSize: '1rem', marginRight: "10px" }} /> Monday — Friday 8:00am - 5:00pm</span></li>
                         </ul>
                     </div>
                 </div>

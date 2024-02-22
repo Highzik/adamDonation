@@ -17,14 +17,14 @@ export default function Donate() {
       {/* This is the H1 and the Ptag on the background image  */}
       <div className='text-center text_on_img'>
         <h1>Donate To Save Lifes</h1>
-        <p className="writeup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus <br /> at aspernatur, ullam, perferendis, vel assumenda laboriosam <br /> blanditiis quasi iusto veritatis fugiat aut! Culpa minima optio <br /> sint eligendi, id ipsam explicabo.</p>
+        <p className="writeup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus <br /> at aspernatur, ullam, perferendis, vel assumenda laboriosam <br /> blanditiis quasi iusto veritatis fugiat aut! Culpa minima optio</p>
       </div>
 
       <br /> <br />
 
       {/* section for latest donations */}
       <div>
-        <div className="site-section fund-raisers">
+        <div className="site-section fund-raisers py-4 mb-4">
           <div className="container">
             <div className="row mb-5">
               <div className="col-md-12 text-center">
