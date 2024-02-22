@@ -26,7 +26,7 @@
 
 .writeup {
   color: white;
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 22px;
 }
 
@@ -40,16 +40,10 @@
 
 .h2d {
   margin-top: 30px;
-  
+
 }
 
-.site-section img{
+.site-section img {
   width: 30%;
   border-radius: 100%
 }
-
-
-
-
-
-

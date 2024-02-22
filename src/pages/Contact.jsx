@@ -8,20 +8,21 @@ export default function Contact() {
   // functionality to catch input from user
 
   // set a form Data to receive every value that wil be inputed by user
-  const [formInput, setFormInput] = useState([{
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  }])
+  // const [formInput, setFormInput] = useState([{
+  //   name: '',
+  //   email: '',
+  //   subject: '',
+  //   message: ''
+  // }])
 
-  // catch every value and transfer it to the form Data
-  const onchange = (e) => {
-    const validateForm = {
-      ...formInput[name, value] = e.target.value
-    }
-    setFormInput(validateForm);
-  }
+  // // catch every value and transfer it to the form Data
+  // const onchange = (e) => {
+  //   const validateForm = {
+  //     ...formInput
+  //     [e.target.name]: e.target.value
+  //   }
+  //   setFormInput(validateForm);
+  // }
 
   //submit form
   const handleSubmit = (e) => {

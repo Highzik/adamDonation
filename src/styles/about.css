@@ -1,4 +1,4 @@
-.aboutImg{
+.aboutImg {
     position: absolute;
     top: 0;
     left: 0;
@@ -7,23 +7,29 @@
     height: 100%;
     z-index: -1;
 }
-  
-  
+
+
 .text_on_img {
     position: relative;
     padding-top: 30vh;
     padding-bottom: 20vh;
 }
-  
+
 .text_on_img h1 {
     color: #FFF;
     font-weight: 700;
     font-size: 4rem;
-     letter-spacing: 5px;
+    letter-spacing: 5px;
 }
 
 .secondImg {
     max-width: 100%;
     height: auto;
+}
 
+.about-container {
+    position: absolute;
+    padding-top: 150vh;
+    border: 2px solid red;
+    padding: 30px;
 }

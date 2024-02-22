@@ -3,7 +3,7 @@ import { FaBriefcaseMedical, FaUsers, FaDollarSign } from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <footer className="footer container-fluid">
+        <footer className="bg-secondary text-white w-100 footer container-fluid h-100">
             <div className="main-container">
                 <div className="row">
                     <div className="col-md-6 col-lg-6">
@@ -20,10 +20,10 @@ const Footer = () => {
                                 <ul>
                                     <li><span className="icon icon-map-marker"></span><span className="text">203 Fake St. Mountain View, San <br />Francisco, California, USA</span></li>
                                     <li><a href="#"><span class="icon icon-phone"></span><span className="text"> <FaBriefcaseMedical style={{ color: '#79ccab', fontSize: '2rem' }} />+2 392 3929 210</span></a></li>
-                                    <li><a href="#"><span class="icon icon-envelope"></span><span className="text"> <FaBriefcaseMedical style={{ color: '#79ccab', fontSize: '18px', marginRight:  "10px"}} />   info@yourdomain.com</span></a></li>
+                                    <li><a href="#"><span class="icon icon-envelope"></span><span className="text"> <FaBriefcaseMedical style={{ color: '#79ccab', fontSize: '18px', marginRight: "10px" }} />   info@yourdomain.com</span></a></li>
 
-                                    <li><a href="#"><span class="icon icon-envelope"></span><span className="text"> <FaBriefcaseMedical style={{ color: '#79ccab', fontSize: '18px', marginRight:  "10px"}} />   info@yourdomain.com</span></a></li>
-                            
+                                    <li><a href="#"><span class="icon icon-envelope"></span><span className="text"> <FaBriefcaseMedical style={{ color: '#79ccab', fontSize: '18px', marginRight: "10px" }} />   info@yourdomain.com</span></a></li>
+
 
 
                                     <li><span class="icon icon-clock-o"></span><span class="text">Monday — Friday 8:00am - 5:00pm</span></li>
