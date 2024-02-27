@@ -11,12 +11,6 @@ import { FaBriefcaseMedical, FaUsers, FaDollarSign } from 'react-icons/fa'
 // import Footer from './Footer'
 import CoinbasedonateButton from './CoinbasedonateButton';
 
-
-
-
-
-
-
 export default function Home() {
 
   return (
@@ -61,7 +55,7 @@ export default function Home() {
             </p>
             <p><i>Last donation 1w ago</i></p>
             <h2 className='mb-4'>$8,100 raised of $30,000</h2>
-             <CoinbasedonateButton />
+            <CoinbasedonateButton />
           </div>
           <div className="col-lg-6 secondImg-container">
             <img src={image2} alt="children in classroom" className='img-fluid second-img' />
