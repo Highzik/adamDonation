@@ -62,6 +62,7 @@ export default function Home() {
 
       {/* section for latest donations */}
       <section className='section3'>
+        <h2 style={{ color: "black", position: "relative" }} className='text-center'>Latest Donations</h2>
         <div className="container">
           <div className="row text-center cards ">
 
