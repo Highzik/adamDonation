@@ -16,6 +16,9 @@ import Contact from './pages/Contact'
 import NavLayout from './layouts/NavLayout'
 
 function App() {
+
+
+  
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path='/' element={<NavLayout />}>

@@ -101,17 +101,17 @@ export default function Gallery() {
             <div className="col-md-6 col-lg-4">
               <FaBriefcaseMedical style={{ color: '#79ccab', fontSize: '2rem' }} />
               <h2>Medical Mission</h2>
-              <p>A small river named Duden flows by their <br />place and supplies it with the <br />necessary regelialia</p>
+              <p>"Help us make a difference <br /> in healthcare worldwide. <br /> Your donation enables life-saving <br />medical missions to provide essential <br /> care to those in need. <br /> Support our cause today!"</p>
             </div>
             <div className="col-md-6 col-lg-4">
               <FaDollarSign style={{ color: '#79ccab', fontSize: '2rem' }} />
               <h2>Make Donation Now</h2>
-              <p>A small river named Duden flows by their <br />place and supplies it with the <br />necessary regelialia</p>
+              <p>"Make a lasting impact Donate <br /> now to support our mission and <br /> empower positive change in <br /> communities worldwide. Every <br /> contribution makes a difference."</p>
             </div>
             <div className="col-md-6 col-lg-4">
               <FaUsers style={{ color: '#79ccab', fontSize: '2rem' }} />
               <h2>We Need Volunteers</h2>
-              <p>A small river named Duden flows by their <br />place and supplies it with the <br />necessary regelialia</p>
+              <p>"Join our cause! Volunteer your time <br /> and skills to support our mission. <br /> Together, we can make a meaningful <br /> difference in the lives of those in need."</p>
             </div>
           </div>
         </section>

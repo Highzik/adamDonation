@@ -28,17 +28,17 @@ export default function Home() {
             <div className="col-md-6 col-lg-4">
               <FaBriefcaseMedical style={{ color: '#79ccab', fontSize: '2rem' }} />
               <h2>Medical Mission</h2>
-              <p>A small river named Duden flows by their <br />place and supplies it with the <br />necessary regelialia</p>
+              <p>"Help us make a difference <br /> in healthcare worldwide. <br /> Your donation enables life-saving <br />medical missions to provide essential <br /> care to those in need. <br /> Support our cause today!"</p>
             </div>
             <div className="col-md-6 col-lg-4">
               <FaDollarSign style={{ color: '#79ccab', fontSize: '2rem' }} />
               <h2>Make Donation Now</h2>
-              <p>A small river named Duden flows by their <br />place and supplies it with the <br />necessary regelialia</p>
+              <p>"Make a lasting impact Donate <br /> now to support our mission and <br /> empower positive change in <br /> communities worldwide. Every <br /> contribution makes a difference."</p>
             </div>
             <div className="col-md-6 col-lg-4">
               <FaUsers style={{ color: '#79ccab', fontSize: '2rem' }} />
               <h2>We Need Volunteers</h2>
-              <p>A small river named Duden flows by their <br />place and supplies it with the <br />necessary regelialia</p>
+              <p>"Join our cause! Volunteer your time <br /> and skills to support our mission. <br /> Together, we can make a meaningful <br /> difference in the lives of those in need."</p>
             </div>
           </div>
         </section>
@@ -50,8 +50,7 @@ export default function Home() {
           <div className="col-lg-6">
             <h4>FEATURED</h4>
             <h3>School in Africa <br />Need Renovations</h3>
-            <p>Far far away, behind the word mountains, far from the countries <br />
-              Vokalia and Consonantia, there live the blind texts
+            <p>"Support our cause to renovate schools in Africa <br /> and provide better learning environments. <br /> Your donation helps us improve educational <br /> facilities for students in need. <br /> Join us in making a positive impact today!"
             </p>
             <p><i>Last donation 1w ago</i></p>
             <h2 className='mb-4'>$8,100 raised of $30,000</h2>
