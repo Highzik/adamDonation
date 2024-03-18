@@ -27,14 +27,18 @@ export default function About() {
           <img src={UN4} alt="picture of a boy" className='img-fluid img_boy' />
           <div className="row mt-4 dummy-text-container">
             <div className="col-md-6 col-lg-6">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim non deserunt expedita sed iure sequi esse quaerat cupiditate alias illo saepe accusantium, dolorum, nesciunt nisi veniam libero beatae illum tempore.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, similique!</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quis aspernatur ab quidem minima accusantium ducimus nobis, officia commodi doloremque.</p>
+              <h3>About Us:</h3>
+              <p> Welcome to <strong>Giving Africa initiatives,</strong> where our mission is to make sure every Africa child get educated. Founded in <strong>2019,</strong>we are a non-profit organization. We believe in the power of collective action and the strength found in diversity. Together, we embark on initiatives that promote inclusivity, equality, and opportunity for all.</p>
+              <h3>Our Mission</h3>
+              <p>At Giving Africa initiatives, we believe in Empowerment, integrity, Collaboration, Empathy. Our mission is to put African children back to school to help them have a better life and a bright future. We strive to Adress root causes of why this children are not in school and we hope to achieve putting them back to school.</p>
+              
             </div>
             <div className="col-md-6 col-lg-6">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias commodi. Voluptatum consequuntur totam sapiente, distinctio obcaecati expedita, repellat hic aspernatur vitae, molestias sed voluptatibus fugiat neque nesciunt minus explicabo.</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, architecto.</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, blanditiis libero. Placeat sit tenetur sint necessitatibus impedit perspiciatis voluptatum omnis?</p>
+              <h3>Our Story:</h3>
+              <p>Giving Africa initiatives was born out of a shared passion for the African children. Our founders recognized a need in the community and came together to make a difference. Since then, we have grown into building 1000 schools and putting over 5000 children back to school.</p>
+              <h3>Join Us</h3>
+              <p> We invite you to join us in our mission to help put African children back to school. Whether through donations, volunteering, spreading awareness,every contribution makes a difference. Together, we can make the world a better place with your supports.</p>
+            
             </div>
           </div>
         </div>
@@ -108,6 +112,3 @@ export default function About() {
     </div>
   )
 }
-
-
-
